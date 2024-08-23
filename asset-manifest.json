@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rapidfrontend/static/css/main.33a7d565.css",
+    "main.js": "/rapidfrontend/static/js/main.dd9a927c.js",
+    "index.html": "/rapidfrontend/index.html",
+    "main.33a7d565.css.map": "/rapidfrontend/static/css/main.33a7d565.css.map",
+    "main.dd9a927c.js.map": "/rapidfrontend/static/js/main.dd9a927c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33a7d565.css",
+    "static/js/main.dd9a927c.js"
+  ]
+}
