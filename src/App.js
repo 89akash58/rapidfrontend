@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import TotalSales from "./components/TotalSales";
+import SalesGrowth from "./components/SalesGrowth";
+import NewCustomers from "./components/NewCustomers";
+import RepeatCustomers from "./components/RepeatCustomers";
+import CustomerGeography from "./components/CustomerGeography";
+import CustomerLTV from "./components/CustomerLTV";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>E-commerce Analytics Dashboard</h1>
+      <div className="chart-container">
+        <TotalSales />
+        <SalesGrowth />
+        <NewCustomers />
+        <RepeatCustomers />
+        <CustomerGeography />
+        <CustomerLTV />
+      </div>
     </div>
   );
 }
